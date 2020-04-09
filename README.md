@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to apollo-now 👋</h1>
+<h1 align="center">Welcome to apollo-prisma-now 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/ikey2244/apollo-now#readme" target="_blank">
