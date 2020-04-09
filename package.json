@@ -4,7 +4,8 @@
   "description": "apollo-server with now deployment",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "postinstall": "npx prisma generate"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/ikey2244/apollo-now#readme",
   "dependencies": {
+    "@prisma/client": "^2.0.0-beta.2",
     "apollo-server": "^2.9.15",
     "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.2"
   }
 }
